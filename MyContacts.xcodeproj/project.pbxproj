@@ -10,11 +10,13 @@
 		1BFD28AD1B6F9D44004B8FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28AC1B6F9D44004B8FFA /* main.m */; };
 		1BFD28B01B6F9D44004B8FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28AF1B6F9D44004B8FFA /* AppDelegate.m */; };
 		1BFD28B31B6F9D44004B8FFA /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28B11B6F9D44004B8FFA /* MyContacts.xcdatamodeld */; };
-		1BFD28B61B6F9D44004B8FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28B51B6F9D44004B8FFA /* ViewController.m */; };
+		1BFD28B61B6F9D44004B8FFA /* EditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28B51B6F9D44004B8FFA /* EditController.m */; };
 		1BFD28B91B6F9D44004B8FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFD28B71B6F9D44004B8FFA /* Main.storyboard */; };
 		1BFD28BB1B6F9D44004B8FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFD28BA1B6F9D44004B8FFA /* Images.xcassets */; };
 		1BFD28BE1B6F9D44004B8FFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFD28BC1B6F9D44004B8FFA /* LaunchScreen.xib */; };
 		1BFD28CA1B6F9D45004B8FFA /* MyContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28C91B6F9D45004B8FFA /* MyContactsTests.m */; };
+		1BFD28D81B6F9E40004B8FFA /* MyContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28D71B6F9E40004B8FFA /* MyContact.m */; };
+		1BFD28DB1B6F9F89004B8FFA /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD28DA1B6F9F89004B8FFA /* TableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,18 @@
 		1BFD28AE1B6F9D44004B8FFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BFD28AF1B6F9D44004B8FFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1BFD28B21B6F9D44004B8FFA /* MyContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContacts.xcdatamodel; sourceTree = "<group>"; };
-		1BFD28B41B6F9D44004B8FFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1BFD28B51B6F9D44004B8FFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BFD28B41B6F9D44004B8FFA /* EditController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditController.h; sourceTree = "<group>"; };
+		1BFD28B51B6F9D44004B8FFA /* EditController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditController.m; sourceTree = "<group>"; };
 		1BFD28B81B6F9D44004B8FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BFD28BA1B6F9D44004B8FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BFD28BD1B6F9D44004B8FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1BFD28C31B6F9D44004B8FFA /* MyContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFD28C81B6F9D45004B8FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BFD28C91B6F9D45004B8FFA /* MyContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactsTests.m; sourceTree = "<group>"; };
+		1BFD28D61B6F9E40004B8FFA /* MyContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyContact.h; path = ../MyContact.h; sourceTree = "<group>"; };
+		1BFD28D71B6F9E40004B8FFA /* MyContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyContact.m; path = ../MyContact.m; sourceTree = "<group>"; };
+		1BFD28D91B6F9F89004B8FFA /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		1BFD28DA1B6F9F89004B8FFA /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +89,19 @@
 		1BFD28A91B6F9D44004B8FFA /* MyContacts */ = {
 			isa = PBXGroup;
 			children = (
+				1BFD28D61B6F9E40004B8FFA /* MyContact.h */,
+				1BFD28D71B6F9E40004B8FFA /* MyContact.m */,
 				1BFD28AE1B6F9D44004B8FFA /* AppDelegate.h */,
 				1BFD28AF1B6F9D44004B8FFA /* AppDelegate.m */,
-				1BFD28B41B6F9D44004B8FFA /* ViewController.h */,
-				1BFD28B51B6F9D44004B8FFA /* ViewController.m */,
+				1BFD28B41B6F9D44004B8FFA /* EditController.h */,
+				1BFD28B51B6F9D44004B8FFA /* EditController.m */,
 				1BFD28B71B6F9D44004B8FFA /* Main.storyboard */,
 				1BFD28BA1B6F9D44004B8FFA /* Images.xcassets */,
 				1BFD28BC1B6F9D44004B8FFA /* LaunchScreen.xib */,
 				1BFD28B11B6F9D44004B8FFA /* MyContacts.xcdatamodeld */,
 				1BFD28AA1B6F9D44004B8FFA /* Supporting Files */,
+				1BFD28D91B6F9F89004B8FFA /* TableController.h */,
+				1BFD28DA1B6F9F89004B8FFA /* TableController.m */,
 			);
 			path = MyContacts;
 			sourceTree = "<group>";
@@ -222,10 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFD28DB1B6F9F89004B8FFA /* TableController.m in Sources */,
 				1BFD28B01B6F9D44004B8FFA /* AppDelegate.m in Sources */,
 				1BFD28AD1B6F9D44004B8FFA /* main.m in Sources */,
-				1BFD28B61B6F9D44004B8FFA /* ViewController.m in Sources */,
+				1BFD28B61B6F9D44004B8FFA /* EditController.m in Sources */,
 				1BFD28B31B6F9D44004B8FFA /* MyContacts.xcdatamodeld in Sources */,
+				1BFD28D81B6F9E40004B8FFA /* MyContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +359,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyContacts/MyContacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -357,9 +372,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyContacts/MyContacts-Bridging-Header.h";
 			};
 			name = Release;
 		};
